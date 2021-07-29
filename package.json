@@ -1,0 +1,20 @@
+{
+  "name": "senior-academy-part1-setup",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck --no-open ./src/deck.mdx",
+    "build": "mdx-deck build ./src/deck.mdx",
+    "format": "yarn prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx,yml,yaml}\""
+  },
+  "dependencies": {
+    "@mdx-deck/themes": "^4.1.0",
+    "mdx-deck": "^4.1.1"
+  },
+  "devDependencies": {
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "prettier": "^2.3.2"
+  }
+}
